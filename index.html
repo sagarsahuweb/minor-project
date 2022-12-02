@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password strength Checker</title>
+    <link rel="shortcut icon" href="apple-touch-icon.png" type="image/">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <div id="main">
+        <div id="main2">
+       
+        <div id="page1">
+            <marquee id="mm" direction="right" 
+                behavior="alternate" 
+                style="color: black;  border:BLACK 2px SOLID font-size 20px;">
+               <span id="movingtext">" We Do not Store Your Data"</span>
+            </marquee>
+            <h1>Password Strength Tester</h1>
+
+        <div class="strength-meter" id="strength-meter"> <span id="strength-percent"></span><div id="before"></div></div>
+        
+        <input class="password-input" id="password-input"   placeholder="Enter Your Password" type="text" autofocus aria-labelledby="password">
+        
+        
+        <div id="type"></div>
+        <div id="box"><h4>Suggestions</h4>
+            <div class="reasons" id="reasons"></div>
+        </div>
+    </div> <div id="tip">Tip: Change Your Passwords in Regular interval of time</div></div>
+</div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js" integrity="sha512-Mf/xUqfWvDIr+1B6zfnIDIiG7XHzyP/guXUWgV6PgaQoIFeXkJQR5XWh9fqAiCiRCpemabt3naV4jhDWVnuYDQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+     <script src="script.js"></script>
+     
+    
+</body>
+</html>
